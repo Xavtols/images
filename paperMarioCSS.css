@@ -1,0 +1,118 @@
+.sub-section {
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.custom-cursor {
+    cursor: url('https://www.cursor.cc/cursor3d/59410.png'), auto;
+}
+
+.marioSide {
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid black; */
+    padding: 30px;
+    height: fit-content;
+}
+
+#mario-img {
+    transform: scaleX(-1);
+}
+
+.marioSide .actions img {
+    transform: scaleX(-1);
+}
+
+.partner img{
+    transform: scaleX(-1);
+    max-height: 150px;
+    max-width: 150px;
+
+
+}
+
+.partner-selector {
+    display: flex;
+    justify-content: center;
+}
+
+.health {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+span {
+    font-weight: 600;
+    font-family: "Comic Neue", cursive;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.actions {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#enemyimg {
+    min-height: 400px;
+    max-width: 1000px;
+    min-width: 500px;
+    max-height: 500px;
+}
+
+
+.actions img {
+    max-height: 50px;
+}
+
+.character-img {
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 180px;
+}
+
+.enemySide {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+
+#partnerAttack {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 100%;
+    border: 0;
+    font-weight: 600;
+    font-family: "Comic Neue", cursive;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.partner .character-assets {
+    padding-top: 20px;
+}
+
+
+.enemySide .character-assets {
+    display: grid;
+    justify-items: center;
+}
+
+.character-assets {
+    display: grid;
+}
+.mario .actions button {
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.mario {
+    display: table-caption;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="paperMarioCSS.css">
+
+    <style>
+        body {
+            cursor: url('https://www.cursor.cc/cursor3d/59410.png'), auto;
+        }
+        .custom-element {
+            cursor: url('https://www.cursor.cc/cursor3d/59410.png'), auto;
+        }
+    </style>
+
+    <title>Paper Mario</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="sub-section">
+            <div class="marioSide">
+                <div class="partner">
+                    <div class="partner-selector">
+                        <select name="" id="partnerSelector">
+                            <option value="bobbery" selected>Bobbery</option>
+                            <option value="yoshi" >Yoshi</option>
+                            <option value="vivian">Vivian</option>
+                        </select>
+                    </div>
+                    <div class="actions">
+                        <button id="partnerAttack">Attack</button>
+                    </div>
+                    <div class="character-assets">
+                        <img class="character-img" id="partnerImg"
+                            src="https://mario.wiki.gallery/images/1/1e/PMTTYD_Admiral_Bobbery_Sprite.png" alt="">
+                        <div class="health">
+                            <span id="partnerHp">40</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mario">
+                    <div class="actions">
+                        <button id="jumpAttack">
+                            <img src="https://mario.wiki.gallery/images/5/57/Super_Boots_PMTTYDNS_icon.png" alt="">
+                        </button>
+                        <button id="hammerAttack">
+                            <img src="https://mario.wiki.gallery/images/6/67/Hammer_PMTTYDNS_icon.png" alt="">
+                        </button>
+                    </div>
+                    <div class="character-assets">
+                        <img  id="mario-img" class="character-img"
+                            src="https://mario.wiki.gallery/images/thumb/d/d6/PMTTYD_Mario_Standing_Artwork.jpg/400px-PMTTYD_Mario_Standing_Artwork.jpg"
+                            alt="">
+                        <div class="health">
+                            <span id="marioHp">30</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="enemySide">
+                <div class="character-assets">
+                    <img id="enemyimg" src="https://static.wikia.nocookie.net/papermario/images/7/71/Bowser.png/revision/latest?cb=20151103052158"
+                        alt="">
+                    <div class="health">
+                        <span id="enemyHp">50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="paperMarioSim.js"></script>
+
+</html>
